@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+		integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="css/style.css" />
+	<title>Grupou!</title>
+</head>
+
+<body>
+	<div class="join-container">
+
+		<img class="img" src="imagem/logo.jpeg">
+
+		<header class="join-header">
+			<h1><i class="far fa-comments"> Grupou!</i></h1>
+		</header>
+		<main class="join-main">
+			<form action="chat.html">
+				<div class="form-control">
+					<label for="username">Aluno</label>
+					<input type="text" name="username" id="username" placeholder="Informe seu nome" required />
+				</div>
+				<div class="form-control">
+					<label for="room">Curso</label>
+					<select name="room" id="room">
+						<option value="DesenvolvimentoAppMoveis">Desenvolvimento App Móveis</option>
+						<option value="AplicacoesDistribuidas">Aplicações Distribuídas</option>
+						<option value="WebDesign">Web Design</option>
+						<option value="AplicacoescomBancodeDados">Aplicações com Banco de Dados</option>
+						<option value="ProjetoIntegrador">Projeto Integrador</option>
+					</select>
+				</div>
+				<button type="submit" class="btn">Entrar no chat</button>
+			</form>
+		</main>
+	</div>
+</body>
+
+</html>
